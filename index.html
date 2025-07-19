@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio | Herrera</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#welcome"><i class="fas fa-home"></i> Inicio</a></li>
+      <li><a href="#about"><i class="fas fa-user"></i> Sobre mí</a></li>
+      <li><a href="#cv"><i class="fas fa-graduation-cap"></i> Currículum</a></li>
+      <li><a href="#projects"><i class="fas fa-code"></i> Proyectos</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- BIENVENIDA -->
+  <section id="welcome" class="main-header">
+  <img src="img/Github_pfp.jpg" alt="Avatar Herrera" class="avatar-img">
+    <h1>¡Hola, soy <span style="color:#61dafb;">Herrera</span>! 👋</h1>
+    <p>Desarrollador web en formación.</p>
+    <a href="#about" class="btn"><i class="fas fa-arrow-down"></i> Ver más sobre mí</a>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section id="about" class="about">
+    <h2>Sobre mí <span>🙋‍♂️</span></h2>
+    <p>
+      Soy Herrera, desarrollador web en formación con pasión por crear soluciones visuales y funcionales.<br>
+      Actualmente curso el último año de diversificado en informática mientras sigo desarrollándome como futuro programador web.
+    </p>
+
+    <div class="about-grid" style="display:flex; flex-wrap:wrap; gap:2rem; justify-content:center;">
+      <div>
+        <h3>Datos generales</h3>
+        <ul>
+          <li><strong>👤 Nombre:</strong> Guillermo Herrera</li>
+          <li><strong>🎂 Edad:</strong> 18 años</li>
+          <li><strong>📧 Email:</strong> <a href="mailto:.com">guillermoherrera2006@gmail.com</a></li>
+          <li><strong>🏫 Estudios:</strong> 2023-2025 diversificado en informática</li>
+          <li><strong>💻 Experiencia:</strong> Proyectos personales, trabajos escolares y Practicas</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Habilidades <span>🚀</span></h3>
+        <div class="skills">
+          <div class="skill"><span><i class="fab fa-html5"></i> HTML</span><div class="bar html"></div></div>
+          <div class="skill"><span><i class="fab fa-css3-alt"></i> CSS</span><div class="bar css"></div></div>
+          <div class="skill"><span><i class="fab fa-js"></i> JavaScript</span><div class="bar js"></div></div>
+          <div class="skill"><span><i class="fab fa-react"></i> React</span><div class="bar react"></div></div>
+          <div class="skill"><span><i class="fab fa-node-js"></i> Node.js</span><div class="bar node"></div></div>
+          <div class="skill"><span><i class="fas fa-database"></i> MongoDB</span><div class="bar mongodb"></div></div>
+          <div class="skill"><span><i class="fab fa-github"></i> GitHub</span><div class="bar github"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRICULUM -->
+<section id="cv">
+  <h2>Currículum <span>📚</span></h2>
+  <div class="cv-container">
+    <div class="cv-box">
+      <h3>🎓 Educación</h3>
+      <ul>
+        <li><strong>Diversificado en Informática</strong> – Centro Educativo Tecnico Laboral KINAL<br><small>2023 - Actualidad</small></li>
+        <li><strong>Cursos y aprendizaje online </strong> – YouTube / UDIA<br><small>2023 - Actualidad</small></li>
+      </ul>
+    </div>
+    <div class="cv-box">
+      <h3>💼 Experiencia / Prácticas</h3>
+      <ul>
+        <li><strong>Prácticas supervisadas</strong> – Programación Web<br><small>Pendientes 2025</small></li>
+        <li><strong>Proyectos personales</strong> – Frontend y Backend Developer<br><small>2023 - Actualidad</small></li>
+      </ul>
+    </div>
+  </div>
+  <div style="text-align:center; margin-top:2rem;">
+    <a href="docs/Anibal Guillermo Herrera Ortiz.pdf" download class="cv-download-link">
+      <i class="fas fa-file-pdf"></i> Descarga aquí mi currículum completo en PDF
+    </a>
+  </div>
+</section>
+
+  <!-- PROYECTOS -->
+  <section id="projects" class="projects">
+    <h2>Mis Proyectos <span>🛠️</span></h2>
+    <div class="project-list" style="display:flex; flex-wrap:wrap; gap:2rem; justify-content:center;">
+      <div class="project-card">
+        <img src="img/Captura de pantalla 2025-07-18 114244.png" alt="Proyecto 1" />
+        <h3><i class="fas fa-tasks"></i> Blog </h3>
+        <p>App web que presenta un blog estudiantil para las areas academicas de Taller en la carrera de Informatica en KINAL</p>
+        <p><strong>Tecnologías:</strong> React, CSS, JavaScript (Frontend y Backend)</p>        
+        <a href="https://github.com/herreraBussines/HerreriBlog-Frontend.git" target="_blank" class="btn"><i class="fab fa-github"></i> Ver en GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="img/Captura de pantalla 2025-07-18 154826.png" alt="Proyecto 2" />
+        <h3><i class="fas fa-dumbbell"></i> Bank</h3>
+        <p>App web desarrollada para emular a un banco</p>
+        <p><strong>Tecnologías: React, CSS, JavaScript (Frontend y Backend)</strong></p>
+        <a href="https://github.com/H-E-Software-develpment/React_Frontend_Bank-Management.git" target="_blank" class="btn"><i class="fab fa-github"></i> Ver en GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+<section id="contact" class="contact">
+  <h2>Contacto <span>📞</span></h2>
+  <p>Puedes encontrarme en:</p>
+  <ul>
+    <li>
+      <a href="https://www.linkedin.com/in/guillermo-herrera-9b0480375" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+    </li>
+    <li style="display:flex;flex-direction:column;align-items:center;gap:0.7em;">
+      <span style="font-weight:600;color:#2a5298;font-size:1.25em;text-align:center;">CompuTrabajo</span>
+      <img src="img/image.png" alt="CompuTrabajo" style="width:320px;height:auto;box-shadow:0 4px 24px rgba(30,60,114,0.15);border:2px solid #e3eafc;object-fit:contain;margin-top:0.5em;">
+    </li>
+  </ul>
+  <h3 style="margin-top:2rem;">Envíame un mensaje</h3>
+  <form action="mailto:guillermoherrera2006@gmail.com" method="POST" enctype="text/plain" class="contact-form" style="max-width:420px;margin:2rem auto 0 auto;padding:2rem;background:#f9f9f9;border-radius:18px;box-shadow:0 4px 24px rgba(30,60,114,0.10);display:flex;flex-direction:column;gap:1.2rem;">
+    <div>
+      <label for="nombre" style="display:block;font-weight:600;color:#2a5298;margin-bottom:0.5em;">Nombre</label>
+      <input id="nombre" type="text" name="Nombre" placeholder="Tu nombre" required style="width:100%;padding:0.9em 1em;border-radius:10px;border:1.5px solid #e3eafc;font-size:1em;">
+    </div>
+    <div>
+      <label for="email" style="display:block;font-weight:600;color:#2a5298;margin-bottom:0.5em;">Correo electrónico</label>
+      <input id="email" type="email" name="Email" placeholder="Tu correo" required style="width:100%;padding:0.9em 1em;border-radius:10px;border:1.5px solid #e3eafc;font-size:1em;">
+    </div>
+    <div>
+      <label for="mensaje" style="display:block;font-weight:600;color:#2a5298;margin-bottom:0.5em;">Mensaje</label>
+      <textarea id="mensaje" name="Mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required style="width:100%;padding:0.9em 1em;border-radius:10px;border:1.5px solid #e3eafc;font-size:1em;resize:none;"></textarea>
+    </div>
+    <button type="submit" class="btn" style="margin-top:0.5em;"><i class="fas fa-paper-plane"></i> Enviar mensaje</button>
+  </form>
+</section>
